@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="2dp"
+        android:color="#9E385A" /> <!-- Purple color with alpha (80% opacity) -->
+    <corners android:radius="10dp" />
+
+<item android:state_pressed="true">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/blink_color" />
+        <corners android:radius="10dp" /><!-- Set your desired blink color here -->
+    </shape>
+</item>
+</shape>
